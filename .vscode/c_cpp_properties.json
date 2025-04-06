@@ -6,7 +6,9 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/l4t-gcc/aarch64--glibc--stable-2022.08-1/include",
                 "${workspaceFolder}/Linux_for_Tegra/source/kernel/kernel-jammy-src/include",
-                "${workspaceFolder}/Linux_for_Tegra/source/kernel/kernel-jammy-src/arch/arm64/include"
+                "${workspaceFolder}/Linux_for_Tegra/source/kernel/kernel-jammy-src/arch/arm64/include",
+                "${workspaceFolder}/Linux_for_Tegra/rootfs/usr/src/linux-headers-5.15.148-tegra-ubuntu22.04_aarch64/3rdparty/canonical/linux-jammy/kernel-source/include",
+                "${workspaceFolder}/Linux_for_Tegra/rootfs/usr/src/linux-headers-5.15.148-tegra-ubuntu22.04_aarch64/3rdparty/canonical/linux-jammy/kernel-source/arch/arm64/include/generated"
             ],
             "defines": [
                 "__KERNEL__",
