@@ -23,3 +23,6 @@ cd ../..
 # Expand the Jetson Linux Toolchain
 mkdir -p l4t-gcc
 tar xvf aarch64--glibc--stable-2022.08-1.tar.bz2 -C l4t-gcc --use-compress-program=lbzip2
+
+# Setup the vscode c_cpp_configuration.json to the linux headers
+./vscode_settings.sh
